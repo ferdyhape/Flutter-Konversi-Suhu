@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Ferdy Hahan Pradana',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -58,6 +58,7 @@ class _MyAppState extends State<MyApp> {
                           children: [Text("Suhu Dalam Reamur")],
                         ),
                         Row(
+                         
                           children: [Text(_reamur.toString())],
                         )
                       ],
@@ -85,7 +86,7 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () {
                     _konversi();
                   },
-                  child: Text('Konversi Suhu'),
+                  child: Text('Konversi'),
                 ),
               )
             ],
